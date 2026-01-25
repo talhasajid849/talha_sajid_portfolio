@@ -63,7 +63,7 @@ const Hero = () => {
       />
 
       {/* Main Layout */}
-      <div className="relative z-10  max-w-7xl mx-auto px-16 flex flex-col-reverse md:flex-row items-center justify-between w-full">
+      <div className="relative z-10  max-w-7xl mx-auto px-8 md:px-16 flex flex-col-reverse md:flex-row items-center justify-between w-full">
 
         {/* LEFT: Text Section */}
         <motion.div
@@ -76,14 +76,14 @@ const Hero = () => {
             colors={["#ffffffff", "#375d7fff", "#785e42ff", "#ffffffff"]}
             animationSpeed={7}
             showBorder={false}
-            className="text-4xl md:text-5xl font-bold"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold"
           >
             <span style={{ fontWeight: 800, fontFamily: "Inter, sans-serif" }}>
               Hi, I'm Talha Sajid
             </span>
           </GradientText>
 
-          <div className="text-xl md:text-2xl text-gray-300 font-medium mb-6 font-mono">
+          <div className="text-md md:text-2xl text-gray-300 font-medium mb-6 font-mono">
             <TextType
               text={["Full Stack Engineer"]}
               typingSpeed={60}
@@ -111,12 +111,12 @@ const Hero = () => {
           </p>
 
           {/* Aceternity UI Animated Buttons */}
-          <div className="flex flex-row gap-3 md:gap-6 mt-8">
+          <div className="flex flex-row gap-2 md:gap-6 mt-8">
             <HoverBorderGradient
               as="a"
               onClick={handleResumeDownload}
               containerClassName="rounded-full"
-              className="bg-black/80 backdrop-blur-sm cursor-pointer font-semibold px-5 py-3 md:px-8 md:py-4"
+              className="bg-black/80 backdrop-blur-sm cursor-pointer font-semibold px-3 py-3 md:px-8 md:py-4"
               style={{
                 fontFamily:
                   "'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
@@ -133,7 +133,7 @@ const Hero = () => {
               as="a"
               href="#projects"
               containerClassName="rounded-full"
-              className="bg-black/80 backdrop-blur-sm font-semibold px-5 py-3 md:px-8 md:py-4"
+              className="bg-black/80 backdrop-blur-sm font-semibold px-3 py-3 md:px-8 md:py-4"
               style={{
                 fontFamily:
                   "'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
@@ -160,8 +160,8 @@ const Hero = () => {
             <img
               src={`/images/Talha_profile_pic.jpg`}
               alt="Talha Sajid"
-              className="w-75 inset-shadow-xs
-               h-75 md:w-96 md:h-96 shadow-xl/30 shadow-[#e3b885] ring-4 ring-[#e3b885] 
+              className="w-65 inset-shadow-xs
+               h-65 md:w-96 md:h-96 shadow-xl/30 shadow-[#e3b885] ring-4 ring-[#e3b885] 
                 lg:w-[400px] lg:h-[400px] object-cover object-center rounded-full"
               style={{
                 filter: "contrast(1.05) saturate(1.1)",
