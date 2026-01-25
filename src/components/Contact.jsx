@@ -47,7 +47,7 @@ const ContactSection = () => {
   };
 
   const contactInfo = {
-    email: "raotalhasajid849@gmail.com",
+    email: "rts849@outlook.com",
     phone: "+92-320-0557317",
     location: "Lahore, Pakistan",
     timezone: "GMT +5:30",

@@ -24,7 +24,7 @@ const Footer = () => {
         { icon: FiLinkedin, href: "https://www.linkedin.com/in/talha-sajid-42677035a/", label: "LinkedIn", color: "#0077b5" },
         // { icon: FiTwitter, href: "https://twitter.co", label: "Twitter", color: "#1da1f2" },
         // { icon: FiInstagram, href: "https://instagram.com_jella01", label: "Instagram", color: "#e4405f" },
-        { icon: FiMail, href: "mailto:raotalhasajid849@gmail.com", label: "Email", color: "#ea4335" },
+        { icon: FiMail, href: "mailto:rts849@outlook.com", label: "Email", color: "#ea4335" },
         // { icon: FiCode, href: "https://codepen.io", label: "CodePen", color: "#000000" },
         // { icon: FiExternalLink, href: "https://dev.to/", label: "Dev.to", color: "#0a0a0a" },
         // { icon: FiSend, href: "https://telegram.me/", label: "Telegram", color: "#0088cc" }
@@ -194,7 +194,7 @@ const Footer = () => {
                             {/* Enhanced Quick Actions */}
                             <div className="space-y-3">
                                 <motion.a
-                                    href="mailto:raotalhasajid849@gmail.com"
+                                    href="mailto:rts849@outlook.com"
                                     className="flex items-center gap-3 p-3 rounded-lg text-white/70 hover:text-white text-sm transition-all duration-300 group"
                                     style={{
                                         background: 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)',
