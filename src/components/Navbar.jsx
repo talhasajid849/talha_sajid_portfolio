@@ -53,7 +53,7 @@ const Navbar = () => {
           
           {/* Logo/Name with animated gradient */}
           <a 
-            href="/talha-sajid-portfolio"
+            href="/"
             className="tracking-wide relative z-10 transition-all duration-300 hover:scale-105"
             style={{
               fontSize: '1.2rem',
