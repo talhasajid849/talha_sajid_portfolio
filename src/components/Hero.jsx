@@ -24,6 +24,17 @@ const slideFromRight = {
   },
 };
 
+  const handleResumeDownload = () => {
+    // Update this path to match your resume file location in the public folder
+    const resumePath = `/resume/Talha_Sajid_resume.pdf`;
+    const link = document.createElement('a');
+    link.href = resumePath;
+    link.download = 'Talha_Sajid_resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
 const Hero = () => {
   return (
     <section
@@ -103,19 +114,19 @@ const Hero = () => {
           <div className="flex flex-row gap-3 md:gap-6 mt-8">
             <HoverBorderGradient
               as="a"
-              href="#contact"
+              onClick={handleResumeDownload}
               containerClassName="rounded-full"
-              className="bg-black/80 backdrop-blur-sm font-semibold px-5 py-3 md:px-8 md:py-4"
+              className="bg-black/80 backdrop-blur-sm cursor-pointer font-semibold px-5 py-3 md:px-8 md:py-4"
               style={{
                 fontFamily:
                   "'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
                 fontWeight: 600,
                 textDecoration: "none",
-                color: "#ec4899", // Vibrant magenta/pink
+                color: "#ec4892", // Vibrant magenta/pink
               }}
               duration={2}
             >
-              Get In Touch
+             View My CV
             </HoverBorderGradient>
 
             <HoverBorderGradient
