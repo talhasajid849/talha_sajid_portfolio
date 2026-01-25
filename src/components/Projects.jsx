@@ -167,7 +167,7 @@ const ProjectsSection = () => {
         style.textContent = `
       @font-face {
         font-family: 'SF Pro Display';
-        src: url('${import.meta.env.BASE_URL}fonts/SF-Pro-Display-Medium.otf') format('opentype');
+        src: url('fonts/SF-Pro-Display-Medium.otf') format('opentype');
         font-weight: 500;
         font-display: swap;
       }

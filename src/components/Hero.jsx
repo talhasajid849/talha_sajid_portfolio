@@ -147,7 +147,7 @@ const Hero = () => {
         >
           <div className="relative my-8 md:my-0">
             <img
-              src={`${import.meta.env.BASE_URL}/images/Talha_profile_pic.jpg`}
+              src={`/images/Talha_profile_pic.jpg`}
               alt="Talha Sajid"
               className="w-75 inset-shadow-xs
                h-75 md:w-96 md:h-96 shadow-xl/30 shadow-[#e3b885] ring-4 ring-[#e3b885] 
